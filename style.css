@@ -1,0 +1,37 @@
+:root{
+    --color-orange: #e27d60;
+    --color-lime: #85dcb0;
+    --color-light-orange: #e8a87c;
+    --color-purple: #c38d9e;
+    --color-green: #41b3a3;
+}
+
+html{
+    text-align: center;
+    background-color: var(--color-lime);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+input[type="text"]{
+    border: 0;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 5px solid var(--color-orange);
+}
+
+button{
+    border: 3px solid var(--color-green);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: .3rem .5rem;
+    background-color: var(--color-orange);
+}
+
+button:hover{
+    cursor: pointer;
+    border-color: var(--color-green);
+    background-color: var(--color-light-orange);
+}
